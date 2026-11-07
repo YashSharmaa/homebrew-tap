@@ -4,6 +4,7 @@ Formulas for [voxdesk](https://github.com/YashSharmaa/voxdesk) and [speakback](h
 
 ```sh
 brew tap YashSharmaa/tap
+brew trust yashsharmaa/tap   # once: Homebrew 7 asks you to trust third-party taps
 brew install speakback   # the speak command and its agent skills
 brew install voxdesk     # hotkey dictation app; follow the caveat to copy it to /Applications
 ```
